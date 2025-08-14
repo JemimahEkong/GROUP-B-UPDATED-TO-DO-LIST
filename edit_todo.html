@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+   <title>Edit todo List</title>
+   <link rel="stylesheet" href="style.css">
+   <link rel="javascript" href="git.js">
+</head>
+<body>
+   <div class="edit-todo">
+
+       <nav>
+           <a href="index_todo.html">Home</a>
+           <a href="add_todo.html">Add Todo</a>
+           <a href="view_todo.html">View Todos</a>
+           <a href="edit_todo.html">Edit Todo</a>
+       </nav>
+  
+       <form>
+
+
+           <h2>Edit Todo Item</h2>
+
+
+           <p>Title</p>
+           <input type="text" name="title" placeholder="Enter the title of the task" required value="Wake up">
+
+           <p>Task Description</p>
+           <input type="text" name="task-description" placeholder="Enter the task description" autofocus maxlength="100" required value="Current Task Description">
+
+           <p>Due Date</p>
+           <input type="date" name="due-date" required value="2024-12-31">
+
+           <p>Priority Level</p>
+           <select name="priority-level" required>
+               <option value="low">Low</option>
+               <option value="medium" selected>Medium</option>
+               <option value="high">High</option>
+           </select>
+
+
+           <p>Additional Notes</p>
+           <textarea name="additional-notes" placeholder="Any additional notes or details about the task" rows="4" cols="50">Current additional notes...</textarea>
+
+
+           <br><br>
+           <button type="submit">Update Task</button>
+           <button type="reset">Reset</button>
+       </form>
+
+
+       <p style="color: green;"><strong>✅ Task updated successfully!</strong></p>
+       <p style="color: red;"><strong>❌ Error updating task. Please try again.</strong></p>
+   </div>
+
+
+</body>
+</html>
