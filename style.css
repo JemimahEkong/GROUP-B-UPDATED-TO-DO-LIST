@@ -1,0 +1,97 @@
+body{
+    background-color: #cbaacb;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.home{
+    background-color: white;
+    width: 600px;
+    padding: 30px;
+    margin: 0 auto;
+    margin-top: 200px;
+    border-radius: 50px;
+
+}
+.home h1{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 30px;
+   
+}
+.home p{
+    line-height: 10px;
+}   
+    
+.home nav{
+    text-align: center;
+    
+}
+
+.nav-bar{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.description{
+    text-align: center;
+    margin-bottom: 30px;
+    
+}
+
+.add-todo, .edit-todo, .view-todo{
+   background-color: white;
+    width: 500px;
+    padding: 30px;
+    margin: 0 auto;
+    margin-top: 10px;
+    border-radius: 30px; 
+}
+.add-todo h2, .edit-todo h2, .view-todo h2{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 40px;
+    margin-right: 70px;
+    margin-top: 45px;
+}
+.add-todo, .edit-todo, .view-todo p{
+    line-height:10px;
+}
+.add-todo input, .edit-todo input, .view-todo input{
+    width: 470px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border:1px solid purple;
+}
+.add-todo select, textarea, .edit-todo select, textarea{
+    border:1px solid purple;
+}
+.add-todo button, .edit-todo button{
+    width: 100px;
+    padding: 10px;
+    background-color: purple;
+    color: white;
+    border: none;
+    border-radius: 30px;
+}
+
+.view-todo button{
+    width: 30px;
+    padding: 5px;
+    background-color: purple;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.view-todo select{
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border:1px solid purple;
+}
+.view-todo h2{
+    margin-left: 30px;
+}
