@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>View Todo List</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="view-todo">
+
+        <nav class="nav-bar">
+            <a href="index.html">Home</a>
+            <a href="add_todo.html">Add Todo</a>
+            <a href="view_todo.html">View Todos</a>
+            <a href="edit_todo.html">Edit Todo</a>
+        </nav>
+
+
+        <h2>View todos</h2>
+
+        <form>
+            <label for="status">Filter by Status:</label>
+            <select id="status" name="status">
+                <option value="all">All</option>
+                <option value="pending">Pending</option>
+                <option value="done">Done</option>
+            </select>
+        </form>
+
+        <br>
+            <label for="search">Search Task:</label>
+            <input type="text" id="search" name="search" placeholder="Enter task title">
+        <br><br>
+
+        <table border="1">
+
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Status(pending/done)</th>
+                    <th>Due date</th>
+                    <th>Mark as completed</th>
+                    <th>Delete</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Wake up</td>
+                    <td>Done</td>
+                    <td>2024-12-31</td>
+                    <td><button>✔️</button></td>
+                    <td><button>🗑</button></td>
+                </tr>
+                <tr>
+                    <td>Make my bed</td>
+                    <td>Done</td>
+                    <td>2024-11-30</td>
+                    <td><button>✔️</button></td>
+                    <td><button>🗑</button></td>
+                </tr>
+                <tr>
+                    <td>Exercise</td>
+                    <td>Done</td>
+                    <td>2025-01-15</td>
+                    <td><button>✔️</button></td>
+                    <td><button>🗑</button></td>
+                </tr>
+                <tr>
+                    <td>Workout</td>
+                    <td>Done</td>
+                    <td>2025-01-15</td>
+                    <td><button>✔️</button></td>
+                    <td><button>🗑</button></td>
+                </tr>
+                <tr>
+                    <td>Walk the dogs</td>
+                    <td>Pending</td>
+                    <td>2025-01-15</td>
+                    <td><button>✔️</button></td>
+                    <td><button>🗑</button></td>
+                </tr>
+                <tr>
+                    <td>Brush/bath/get ready for the day</td>
+                    <td>Done</td>
+                    <td>2025-01-15</td>
+                    <td><button>✔️</button></td>
+                    <td><button>🗑</button></td>
+                </tr>
+                <tr>
+                    <td>Eat breakfast</td>
+                    <td>Pending</td>
+                    <td>2025-01-15</td>
+                    <td><button>✔️</button></td>
+                    <td><button>🗑</button></td>
+                </tr>
+                <tr>
+                    <td>Write codes for work/meetings</td>
+                    <td>Done</td>
+                    <td>2025-01-15</td>
+                    <td><button>✔️</button></td>
+                    <td><button>🗑</button></td>
+                </tr>
+                <tr>
+                    <td>Eat lunch</td>
+                    <td>Pending</td>
+                    <td>2025-01-15</td>
+                    <td><button>✔️</button></td>
+                    <td><button>🗑</button></td>
+                </tr>
+                <tr>
+                    <td>Take a stroll</td>
+                    <td>Pending</td>
+                    <td>2025-01-15</td>
+                    <td><button>✔️</button></td>
+                    <td><button>🗑</button></td>
+                </tr>
+                <tr>
+                    <td>Go to the grocery store</td>
+                    <td>Done</td>
+                    <td>2025-01-15</td>
+                    <td><button>✔️</button></td>
+                    <td><button>🗑</button></td>
+                </tr>
+                <tr>
+                    <td>Make/eat dinner</td>
+                    <td>Done</td>
+                    <td>2025-01-15</td>
+                    <td><button>✔️</button></td>
+                    <td><button>🗑</button></td>
+                </tr>
+                <tr>
+                    <td>Brush/bath</td>
+                    <td>Done</td>
+                    <td>2025-01-15</td>
+                    <td><button>✔️</button></td>
+                    <td><button>🗑</button></td>
+                </tr>
+                <tr>
+                    <td>Listen to a podcast/read a book</td>
+                    <td>Done</td>
+                    <td>2025-01-15</td>
+                    <td><button>✔️</button></td>
+                    <td><button>🗑</button></td>
+                </tr>
+            </tbody>
+            
+        </table>
+    </div>
+        
+      <script src="script.js"></script>
+      
+</body>
+</html>
